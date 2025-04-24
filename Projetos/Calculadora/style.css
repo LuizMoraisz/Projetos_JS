@@ -1,0 +1,79 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #display {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: right;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 60px;
+    overflow-x: auto;
+  }
+  
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #dcdcdc;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #c8c8c8;
+  }
+  
+  #Somar,
+  #Subtrair,
+  #Multiplicar,
+  #Dividir,
+  #Igual {
+    background-color: #ff9500;
+    color: white;
+  }
+  
+  #Somar:hover,
+  #Subtrair:hover,
+  #Multiplicar:hover,
+  #Dividir:hover,
+  #Igual:hover {
+    background-color: #e08500;
+  }
+  
+  #LimparDisplay,
+  #LimparCalculo,
+  #Porcentagem,
+  #Inverte {
+    background-color: #bdbdbd;
+  }
+  
